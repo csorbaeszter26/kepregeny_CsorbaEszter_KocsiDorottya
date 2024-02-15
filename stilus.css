@@ -95,5 +95,15 @@ footer {
     font-size: larger;
     font-style: italic;
 }
-
-
+/*mobilos*/
+@media only screen and (max-width: 400px) {
+    nav ul{
+        gap: 40px;
+    }
+}
+/*tabletes*/
+@media only screen and (max-width: 700px) {
+    nav ul{
+        gap: 40px;
+    }
+}
