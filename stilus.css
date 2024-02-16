@@ -97,13 +97,21 @@ footer {
 }
 /*mobilos*/
 @media only screen and (max-width: 400px) {
-    nav ul{
-        gap: 40px;
+    nav ul {
+        gap: 40px; 
+    }
+    img {
+        max-width: 100px; 
+        height: auto; 
     }
 }
 /*tabletes*/
 @media only screen and (max-width: 700px) {
-    nav ul{
-        gap: 40px;
+    nav ul {
+        gap: 20px; 
+    }
+    img {
+        max-width: 100px;
+        height: auto; 
     }
 }
