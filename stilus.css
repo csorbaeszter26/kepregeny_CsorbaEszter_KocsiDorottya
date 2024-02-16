@@ -95,6 +95,35 @@ footer {
     font-size: larger;
     font-style: italic;
 }
+
+fieldset {
+    text-align: center;
+    /*margin-left: 280px;*/
+    /*flex: 0 0 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;*/
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cim {
+    text-align: center;
+}
+
+.kepregenyad{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+
 /*mobilos*/
 @media only screen and (max-width: 400px) {
     nav ul{
