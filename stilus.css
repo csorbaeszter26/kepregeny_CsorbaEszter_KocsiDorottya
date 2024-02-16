@@ -143,4 +143,7 @@ fieldset {
     nav ul {
         gap: 20px; 
     }
+    img{
+        width:60%;
+    }
 }
