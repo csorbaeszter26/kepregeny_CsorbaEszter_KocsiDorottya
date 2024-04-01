@@ -1,5 +1,3 @@
-/* Általános stílusok, amelyek mindkét oldalra vonatkoznak */
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -115,33 +113,33 @@ fieldset {
 
 .urlapArticle {
     overflow: hidden;
-    margin: 0 auto; /* Középre igazítás */
-    max-width: 600px; /* Maximális szélesség korlátozása */
+    margin: 0 auto; 
+    max-width: 600px; 
 }
 
 form {
     display: flex;
-    flex-direction: column; /* Elemek egymás alá helyezése */
-    align-items: center; /* Középre igazítás */
-    padding: 20px; /* Külső tér hozzáadása */
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px; 
 }
 
 fieldset {
     margin-bottom: 20px;
-    border: 2px solid rgba(161, 94, 161, 0.427); /* Szegély hozzáadása */
-    padding: 20px; /* Belső tér hozzáadása a szegélyhez */
-    border-radius: 10px; /* Kerekítés */
-    width: 90%; /* Szélesség beállítása */
-    box-sizing: border-box; /* Box modell beállítása */
+    border: 2px solid rgba(161, 94, 161, 0.427); 
+    padding: 20px; 
+    border-radius: 10px; 
+    width: 90%; 
+    box-sizing: border-box; 
 }
 
 legend {
-    text-align: center; /* Legend középre igazítása */
+    text-align: center; 
 }
 
 label {
-    display: block; /* Címke elemek blokkok */
-    margin-bottom: 10px; /* Elemek közötti távolság */
+    display: block; 
+    margin-bottom: 10px; 
 }
 
 input[type="text"],
@@ -150,15 +148,13 @@ input[type="tel"],
 input[type="number"],
 select,
 textarea {
-    width: calc(100% - 42px); /* Teljes szélesség minusz a padding és a border */
-    padding: 10px; /* Belső tér hozzáadása az inputokhoz */
-    margin-bottom: 10px; /* Elemek közötti távolság */
-    border: 1px solid #ccc; /* Szegély hozzáadása az inputokhoz */
-    border-radius: 5px; /* Kerekítés */
-    box-sizing: border-box; /* Box modell beállítása */
+    width: calc(100% - 42px); 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
 }
-
-/* Flexbox az űrlap adatmezőire */
 
 .kepregenyad,
 .adatok,
@@ -172,20 +168,20 @@ textarea {
 
 @media only screen and (max-width: 400px) {
     nav ul {
-        gap: 20px; /* Csökkentett térköz a navigációs menüpontok között */
+        gap: 20px; 
     }
 
     .kepregenyArticle {
-        padding: 20px; /* Csökkentett padding a képregény cikkhez */
+        padding: 20px; 
     }
 
     .kepek {
-        flex: 0 0 100%; /* Képek teljes szélességre terjesztése */
+        flex: 0 0 100%; 
     }
 }
 
 @media only screen and (max-width: 700px) {
     img {
-        width: 60%; /* Képek maximális szélessége 60%-ra csökkentve */
+        width: 60%; 
     }
 }
